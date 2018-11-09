@@ -13,7 +13,7 @@ describe('App', function () {
             .end(function (err, res) {
                 res.should.have.status(200);
                 done();
-            }).then(done, done);
+            });
         
     });
 
